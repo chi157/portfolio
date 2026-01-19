@@ -14,9 +14,9 @@ export default function Certifications() {
               {/* Oracle */}
               <div className="col-md-6">
                 <div className="card h-100 border-0 shadow-sm hover-card">
-                  <div className="card-body p-4 border-start border-5 border-warning bg-white rounded-end">
+                  <div className="card-body p-4 border-start border-5 border-danger bg-white rounded-end">
                     <div className="d-flex justify-content-between align-items-center mb-3">
-                      <div className="badge bg-warning text-dark p-2"><i className="fab fa-java me-1"></i> Oracle</div>
+                      <div className="badge bg-danger text-white p-2"><i className="fab fa-java me-1"></i> Oracle</div>
                       <small className="text-muted">2021/08/06</small>
                     </div>
                     <h5 className="card-title fw-bold mb-1">Oracle Certified Associate</h5>
@@ -28,9 +28,9 @@ export default function Certifications() {
               {/* Microsoft AI-900 */}
               <div className="col-md-6">
                 <div className="card h-100 border-0 shadow-sm hover-card">
-                  <div className="card-body p-4 border-start border-5 border-info bg-white rounded-end">
+                  <div className="card-body p-4 border-start border-5 border-primary bg-white rounded-end">
                     <div className="d-flex justify-content-between align-items-center mb-3">
-                      <div className="badge bg-info text-white p-2"><i className="fab fa-microsoft me-1"></i> Microsoft</div>
+                      <div className="badge bg-primary text-white p-2"><i className="fab fa-microsoft me-1"></i> Microsoft</div>
                       <small className="text-muted">2021/10/02</small>
                     </div>
                     <h5 className="card-title fw-bold mb-1">Azure AI Fundamentals</h5>
@@ -56,9 +56,9 @@ export default function Certifications() {
               {/* Microsoft DP-900 */}
               <div className="col-md-6">
                 <div className="card h-100 border-0 shadow-sm hover-card">
-                  <div className="card-body p-4 border-start border-5 border-success bg-white rounded-end">
+                  <div className="card-body p-4 border-start border-5 border-primary bg-white rounded-end">
                     <div className="d-flex justify-content-between align-items-center mb-3">
-                      <div className="badge bg-success p-2"><i className="fab fa-microsoft me-1"></i> Microsoft</div>
+                      <div className="badge bg-primary p-2"><i className="fab fa-microsoft me-1"></i> Microsoft</div>
                       <small className="text-muted">2022/07/31</small>
                     </div>
                     <h5 className="card-title fw-bold mb-1">Azure Data Fundamentals</h5>
@@ -76,12 +76,40 @@ export default function Certifications() {
               {/* 電腦軟體應用 乙級 */}
               <div className="col-md-6">
                 <div className="card h-100 border-0 shadow-sm hover-card">
-                  <div className="card-body p-4 border-start border-5 border-danger bg-white rounded-end">
+                  <div className="card-body p-4 border-start border-5 border-success bg-white rounded-end">
                     <div className="d-flex justify-content-between align-items-center mb-3">
-                      <div className="badge bg-danger p-2"><i className="fas fa-award me-1"></i> 乙級技術士</div>
-                      <small className="text-muted">2021/08/20</small>
+                      <div className="badge bg-success p-2"><i className="fas fa-award me-1"></i> 乙級技術士</div>
+                      <small className="text-muted">110/08/20</small>
                     </div>
-                    <h5 className="card-title fw-bold mb-1">電腦軟體應用</h5>
+                    <h5 className="card-title fw-bold mb-1">電腦軟體應用 乙級</h5>
+                    <p className="card-subtitle text-muted mb-0">發證單位：勞動部</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* 電腦軟體應用 丙級 */}
+              <div className="col-md-6">
+                <div className="card h-100 border-0 shadow-sm hover-card">
+                  <div className="card-body p-4 border-start border-5 border-warning bg-white rounded-end">
+                    <div className="d-flex justify-content-between align-items-center mb-3">
+                      <div className="badge bg-warning text-dark p-2"><i className="fas fa-award me-1"></i> 丙級技術士</div>
+                      <small className="text-muted">108/04/14</small>
+                    </div>
+                    <h5 className="card-title fw-bold mb-1">電腦軟體應用 丙級</h5>
+                    <p className="card-subtitle text-muted mb-0">發證單位：勞動部</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* 硬體裝修 丙級 */}
+              <div className="col-md-6">
+                <div className="card h-100 border-0 shadow-sm hover-card">
+                  <div className="card-body p-4 border-start border-5 border-warning bg-white rounded-end">
+                    <div className="d-flex justify-content-between align-items-center mb-3">
+                      <div className="badge bg-warning text-dark p-2"><i className="fas fa-award me-1"></i> 丙級技術士</div>
+                      <small className="text-muted">108/06/30</small>
+                    </div>
+                    <h5 className="card-title fw-bold mb-1">硬體裝修 丙級</h5>
                     <p className="card-subtitle text-muted mb-0">發證單位：勞動部</p>
                   </div>
                 </div>
@@ -90,12 +118,40 @@ export default function Certifications() {
               {/* 電腦軟體設計 丙級 */}
               <div className="col-md-6">
                 <div className="card h-100 border-0 shadow-sm hover-card">
-                  <div className="card-body p-4 border-start border-5 border-secondary bg-white rounded-end">
+                  <div className="card-body p-4 border-start border-5 border-warning bg-white rounded-end">
                     <div className="d-flex justify-content-between align-items-center mb-3">
-                      <div className="badge bg-secondary p-2"><i className="fas fa-award me-1"></i> 丙級技術士</div>
-                      <small className="text-muted">2019/09/11</small>
+                      <div className="badge bg-warning text-dark p-2"><i className="fas fa-award me-1"></i> 丙級技術士</div>
+                      <small className="text-muted">108/09/11</small>
                     </div>
-                    <h5 className="card-title fw-bold mb-1">電腦軟體設計</h5>
+                    <h5 className="card-title fw-bold mb-1">電腦軟體設計 丙級</h5>
+                    <p className="card-subtitle text-muted mb-0">發證單位：勞動部</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* 會計事務-資訊 丙級 */}
+              <div className="col-md-6">
+                <div className="card h-100 border-0 shadow-sm hover-card">
+                  <div className="card-body p-4 border-start border-5 border-warning bg-white rounded-end">
+                    <div className="d-flex justify-content-between align-items-center mb-3">
+                      <div className="badge bg-warning text-dark p-2"><i className="fas fa-award me-1"></i> 丙級技術士</div>
+                      <small className="text-muted">109/04/19</small>
+                    </div>
+                    <h5 className="card-title fw-bold mb-1">會計事務-資訊 丙級</h5>
+                    <p className="card-subtitle text-muted mb-0">發證單位：勞動部</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* 會計事務-人工記帳 丙級 */}
+              <div className="col-md-6">
+                <div className="card h-100 border-0 shadow-sm hover-card">
+                  <div className="card-body p-4 border-start border-5 border-warning bg-white rounded-end">
+                    <div className="d-flex justify-content-between align-items-center mb-3">
+                      <div className="badge bg-warning text-dark p-2"><i className="fas fa-award me-1"></i> 丙級技術士</div>
+                      <small className="text-muted">111/02/08</small>
+                    </div>
+                    <h5 className="card-title fw-bold mb-1">會計事務-人工記帳 丙級</h5>
                     <p className="card-subtitle text-muted mb-0">發證單位：勞動部</p>
                   </div>
                 </div>
