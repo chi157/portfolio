@@ -9,8 +9,8 @@ export default function Home() {
                   <span className="text-primary">Chang, Ching-Chi</span>
                 </h1>
                 <div className="subheading mb-5">
-                  台灣 · 0966-308-225 ·
-                  <a href="mailto:aacindy1026@gmail.com">aacindy1026@gmail.com</a>
+                  台灣 · 09XX-XXX-XXX ·
+                  <a href="mailto:@">@</a>
                 </div>
                 <p className="lead mb-5">
                   國立中央大學資訊管理研究所碩士生，專注於機器學習與資料探勘領域。擅長 Java、Spring Boot 與 Python 開發，持有多項國際技術認證，致力於將 AI/ML 技術應用於實際問題解決。TOEIC 715分，具備良好的英文溝通能力。
